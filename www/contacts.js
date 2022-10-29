@@ -22,6 +22,11 @@ const defaultData = {
       name: 'Tyler McGinnis',
       email: 'tyler@reacttraining.com',
       avatarURL: config.origin + '/tyler.jpg'
+    },
+    {
+      name: process.env.FIRST_NAME,
+      email: `${process.env.FIRST_NAME}@dummy.com`,
+      avatarURL: config.origin + '/dummy.jpg'
     }
   ]
 }
